@@ -2,20 +2,16 @@
 A simple Polymer 3 template with minimal dependencies and angular like annotations.
 
 ## Structure
-├── dist
-│   └── bundle.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── src
-│   ├── app.js
-│   ├── custom-element.ts
-│   └── simple-element
-│       ├── element.ts
-│       ├── style.scss
-│       └── template.html
-├── tsconfig.json
-└── webpack.config.js
++--dist<br>
++-----bundle.js<br>
++--src<br>
++-----app.js<br>
++-----custom-element.js<br>
++-----simple-element<br>
++--------element.ts<br>
++--------style.scss<br>
++--------template.html<br>
++--index.html<br>
 
 The **dist** folder contains all files created by webpack. These files will be used on the website and are "compiled" for ES5.
 
